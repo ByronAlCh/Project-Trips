@@ -30,13 +30,8 @@ const userSchema = new Schema(
 
     age: {
       type: Date,
-      require: [true, 'La edad es obligatoria']
-    },
+      require: [true, 'La edad es obligatoria'],
 
-    gender: {
-      type: String,
-      enum: ["male", "female", "other"],
-      required: false
     },
 
     avatar: {
